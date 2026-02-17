@@ -29,7 +29,7 @@ upper = \relative c {
 }
 
 lower = \relative c {
-  \clef bass
+  %\clef bass
 
   \repeat volta 2 {
     \time 4/4 d8. a16 b8 g16 d'~ d8 b e d | \time 3/4 f8. e16 des2 |
@@ -45,7 +45,7 @@ lower = \relative c {
   \new PianoStaff
   <<
     \new Staff \upper
-    \new Staff \lower
+    \new Staff << \clef bass \lower >>
   >>
 }
 
@@ -56,7 +56,11 @@ lower = \relative c {
 
   \transpose bes c'
   \new PianoStaff <<
-    \new Staff \upper
-    \new Staff \lower
+    \new Staff << \upper >>
+    \new Staff <<
+      \clef treble
+      \transpose c c'
+      \lower
+    >>
   >>
 }
