@@ -21,7 +21,7 @@ upper = \relative c {
     \bar ".|:"
     \time 4/4 <e g c>4 <g a d>2~ q8 <c f bes>~ | \time 3/4 q4 <b d g>2 |
     \time 4/4 <des aes'>4 <ees f bes>2 <c ges' a>4 | \time 3/4 <des ges a>2. |
-    \time 4/4 <d f bes>2. <e g c>4 | <c a'>1 |
+    \time 4/4 <d f bes>4~ q16 <e g d'> r8 r2 | <c a'>1 |
     <ees ges b>2 <d g bes> | <g b d>4~ q8. <ees ges a>16~ q2 |
     \time 3/4 <aes, des e>2. |
     \time 4/4 <g b ees>4~ q8. <a d ges>16~ q2 |
